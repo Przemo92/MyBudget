@@ -1,0 +1,159 @@
+body
+{
+	background-color: #404040;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lato', sans-serif;
+}
+#logo
+{
+	display: inline-block;
+}
+#pic
+{
+	display: inline-block;
+}
+h1
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+
+#topnav
+{
+	background-color: #262926;
+}
+.bigtitle
+{
+	font-size: 25px;
+}
+.menu
+{
+
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.option
+{
+	display: inline-block;
+	min-width: 119px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-right: 1px dashed #D7DCD9;
+}
+.menu a:hover
+{
+	color: #9DA39D;
+}
+#topbar
+{
+	background-color: #185F3A;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 160px;
+}
+
+#topbarL
+{
+	float:left;
+	padding: 20px;
+	padding-left: 10px;
+	width: 148px;
+	text-align: center;
+	border-right: 2px dotted #cccccc;
+}
+
+#topbarR
+{
+	float: left;
+	padding: 10px;
+	padding-left: 20px;
+	width: 760px;
+	font-size: 20px;
+	text-align: justify;
+}
+.menuL
+{
+	float: left;
+	width: 148px;
+	min-height: 620px;
+	padding:20px;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 16px;
+	border-right: 2px dotted #666666;
+}
+.menuL a
+{
+	color: #130B0A;
+	text-decoration: none;
+}
+.optionL
+{
+	font-size:16px;
+	height:25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+}
+.optionL:hover
+{
+	background-color: #F0F0F0;
+	color: white;
+	cursor: pointer;
+}
+
+#content
+{
+	float: left;
+	padding: 40px;
+	width: 730px;
+	background-color: #dedede;
+	min-height: 610px;
+	text-align: justify;
+	font-size: 20px;
+	padding-top:10px;
+}
+h2
+{
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+h3
+{
+	font-size: 20px;
+	font-weight: 700;
+}
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 16px;
+}
+.dottedline
+{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444;
+}
+ul > li
+{
+	padding: 6px;
+}
