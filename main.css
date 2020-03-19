@@ -33,7 +33,6 @@ h1
 }
 .menu
 {
-
 	padding: 10px;
 	font-size: 18px;
 	min-height: 38px;
@@ -44,18 +43,63 @@ h1
 	color: #fff;
 	text-decoration: none;
 }
-.option
+.menu a:hover
 {
+	color: #9DA39D;
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
 	display: inline-block;
+}
+ol > li
+{
+	float: left;
 	min-width: 119px;
 	padding-left: 30px;
 	padding-right: 30px;
 	border-right: 1px dashed #D7DCD9;
 }
-.menu a:hover
+ol > li:last-child
 {
-	color: #9DA39D;
+	border-right: none;
 }
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+	font-size: 16px;
+}
+ol > li:hover > ul
+{
+	display: block;
+}
+ol > li > ul > li
+{
+	background-color:#262926;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #D7DCD9;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #050505;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #white;
+}
+
 #topbar
 {
 	background-color: #185F3A;
@@ -153,7 +197,12 @@ h3
 	margin-bottom: 20px;
 	border-bottom: 2px dotted #444444;
 }
-ul > li
+.pkt
 {
-	padding: 6px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.button
+{
+	float: right;
 }
