@@ -166,7 +166,6 @@ ol > li > ul > li:hover > a
 	width: 730px;
 	background-color: #dedede;
 	min-height: 610px;
-	text-align: justify;
 	font-size: 20px;
 	padding-top:10px;
 }
@@ -205,4 +204,63 @@ h3
 .button
 {
 	float: right;
+}
+.logoR
+{
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.date
+{
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 65px;
+	
+}
+input[type=text],
+input[type=password],
+input[type=email]
+{
+	width: 600px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	margin-left: 65px;
+	
+}
+input[type=submit]
+{
+	width: 600px;
+	background-color: #185F3A;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	margin-left: 65px;
+}
+input[type=submit]:hover
+{
+	background-color: #37b93d;
+}
+button
+{
+	background-color: #262926;
+	color: white;
+	cursor: pointer;
+	width: 100px;
+	border-radius: 5px;
+	padding: 6px;
 }
