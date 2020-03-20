@@ -270,3 +270,7 @@ button
 	border-radius: 5px;
 	padding: 6px;
 }
+button:hover
+{
+	background-color: #635C5C;
+}
