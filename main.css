@@ -274,3 +274,37 @@ button:hover
 {
 	background-color: #635C5C;
 }
+.row
+{
+	margin: 10px 10px;
+}
+.col
+{
+	display: inline-block;
+	margin: 0 10px;
+	width: 200px;
+}
+#komentarz
+{
+	display: none;
+}
+#add,input[type=reset]
+{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color: #286607;
+	font-size:15px;
+	color: white;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	padding: 0px;
+	margin-left: 0px;
+}
+#add:hover,input[type=reset]:hover
+{
+	background-color: #37b93d;
+}

@@ -117,30 +117,34 @@
 							<div><label><input type="checkbox" name="kat[]" value="2"> Mieszkanie </label></div>
 							<div><label><input type="checkbox" name="kat[]" value="3"> Transport </label></div>
 							<div><label><input type="checkbox" name="kat[]" value="4"> Telekomunikacja </label></div>
+							<div><label><input type="checkbox" name="kat[]" value="5"> Opieka zdrowotna </label></div>
 						</div>
 						
 						<div class="col">
-							<div><label><input type="checkbox" name="kat[]" value="5"> Opieka zdrowotna </label></div>
 							<div><label><input type="checkbox" name="kat[]" value="6"> Ubranie</label></div>
 							<div><label><input type="checkbox" name="kat[]" value="7"> Higiena </label></div>
 							<div><label><input type="checkbox" name="kat[]" value="8"> Dzieci </label></div>
+							<div><label><input type="checkbox" name="kat[]" value="9"> Rozrywka </label></div>
+							<div><label><input type="checkbox" name="kat[]" value="10"> Wycieczka </label></div>
 						</div>
 						
 						<div class="col">
-							<div><label><input type="checkbox" name="kat[]" value="9"> Rozrywka </label></div>
-							<div><label><input type="checkbox" name="kat[]" value="10"> Wycieczka </label></div>
 							<div><label><input type="checkbox" name="kat[]" value="11"> Szkolenia </label></div>
 							<div><label><input type="checkbox" name="kat[]" value="12"> Książki </label></div>
-						</div>
-						<div class="col">
 							<div><label><input type="checkbox" name="kat[]" value="13"> Oszczędności </label></div>
 							<div><label><input type="checkbox" name="kat[]" value="14"> Emerytura</label></div>
 							<div><label><input type="checkbox" name="kat[]" value="15"> Spłata długów </label></div>
-							<div><label><input type="checkbox" name="kat[]" value="16"> Darowizna </label></div>
 						</div>
-						<div><label><input type="checkbox" name="kat[]" value="17"> Inne </label></div>
+						<div class="col">
+							<div><label><input type="checkbox" name="kat[]" value="16"> Darowizna </label></div>
+							<div><label><input id="myCheck" type="checkbox" name="kat[]" value="17" onclick="appearComment()"> Inne </label></div>
+							<div><label><textarea name="komentarz" id="komentarz" rows="1" cols="30"></textarea></label></div>
+						</div>
 						
 					</fieldset>
+					
+					<input type="submit" id="add" value="Dodaj">
+					<input type="reset" id="cancel" value="Wyczyść formularz">
 					
 					<script src="memory.js"></script>
 				</article>
