@@ -27,6 +27,10 @@ h1
 {
 	background-color: #262926;
 }
+#container
+{
+	height: 100%;
+}
 .bigtitle
 {
 	font-size: 25px;
@@ -307,4 +311,27 @@ button:hover
 #add:hover,input[type=reset]:hover
 {
 	background-color: #37b93d;
+}
+#peroid
+{
+	margin-left: 600px;
+}
+#finance
+{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding:0px;
+}
+.fin
+{
+	width: 740px;
+	height: 180px;
+	border: 1px solid black;
+}
+
+.line
+{
+	height: 5px;
+	border-bottom: 1px solid #444444;
 }

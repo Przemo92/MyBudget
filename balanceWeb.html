@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>MyBudget</title>
+	<meta name="description" content="Tutaj w łatwy sposób zapanujesz nad swoim domowym budżetem!">
+	<meta name="keywords" content="finanse, budżet, pieniądze, jak zapanować, oblicz, wydatki, przychody, bilans, policz swoje finanse, miesięczne zestwienie, kontrola budżetu">
+	<meta name="author" content="Przemysław Kapela">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+	<script src="jquery-3.2.1.min.js"></script>
+	
+
+</head>
+
+<body>
+
+	<header>
+		<div id="logo">
+			<h1>MyBudget</h1>
+		</div>
+		
+		<div id="pic">
+			<i class="icon-dollar"></i>
+		</div>		
+		
+		<nav id="topnav">
+		
+			<div class="menu">
+				<ol>
+					<li><a href="#">Strona główna</a></li>
+					<li><a href="#">Dodaj przychód</a></li>
+					<li><a href="#">Dodaj wydatek</a></li>
+					<li><a href="#">Przeglądaj bilans</a>
+						<ul>
+							<li><a href="#">Bierzący miesiąc</a></li>
+							<li><a href="#">Poprzedni miesiąc</a></li>
+							<li><a href="#">Ostatni rok</a></li>
+							<li><a href="#">Niestandardowy</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Ustawienia</a></li>					
+					<li><a href="#">Wyloguj</a></li>				
+				</ol>
+
+			</div>
+			
+		</nav>
+	
+	</header>
+	<div id="topbar">
+			<div id="topbarL">
+				<i class="icon-money"></i>
+			</div>
+			<div id="topbarR">
+				<span class="bigtitle">O stronie słów kilka</span>
+				<div style="height: 16px;"></div>
+				"Budżet to mówienie swoim pieniądzom, dokąd mają iść, zamiast zastanawiania się, dokąd one same sobie poszły” - Dave Ramsey, jeden z amerykańkich bizmesmenów :) Zapraszam do zapoznania się z witryną, dzięki której nauczysz się kontrolować wydatki!
+			</div>
+			<div style="clear:both;"></div>
+	</div>
+	<div id="container">		
+		
+		<div class="menuL">
+			<div class="optionL"><a href="#">Strona główna</a></div>
+			<div class="optionL"><a href="#">Dodaj przychód</a></div>
+			<div class="optionL"><a href="#">Dodaj wydatek</a></div>
+			<div class="optionL"><a href="#">Przeglądaj bilans</a></div>
+			<div class="optionL"><a href="#">Ustawienia</a></div>
+			<div class="optionL"><a href="#">Wyloguj</a></div>
+		</div>
+		
+		<div id="content">
+		
+			<main>
+			
+				<article>
+					
+					<div class="row">
+				
+						<label for="peroid"></label>
+						
+						<select id="peroid" name="peroid">
+						
+							<option value="1"selected>Bieżący miesiąc</option>
+							<option value="2" >Poprzedni miesiąc</option>
+							<option value="3">Poprzedni rok</option>
+							<option value="4">Niestandardowy</option>
+						
+						</select>
+				
+					</div>
+					
+					<div class="fin">
+						<h2 id="finance">Przychody</h2>
+						
+						<div class="line"></div>
+					</div>
+					
+					<div class="fin">
+						<h2 id="finance">Wydatki</h2>
+						
+						<div class="line"></div>
+						
+					</div>
+					
+					<div class="fin">
+						<h2 id="finance">Bilans z danego okresu</h2>
+						
+						<div class="line"></div>
+					</div>
+					
+				</article>
+			
+			</main>
+		</div>
+		
+		<footer>
+			
+			<div class="info">
+				Wszelkie prawa zastrzeżone &copy; 2020 Dziękuję za wizytę!
+			</div>
+		
+		</footer>
+	</div>
+</body>
+</html>
