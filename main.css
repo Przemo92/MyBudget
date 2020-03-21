@@ -61,9 +61,11 @@ ol > li
 {
 	float: left;
 	min-width: 119px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	border-right: 1px dashed #D7DCD9;
+	text-align: center;
+	height: 35px;
 }
 ol > li:last-child
 {
@@ -114,10 +116,12 @@ ol > li > ul > li:hover > a
 {
 	float:left;
 	padding: 20px;
-	padding-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 	width: 148px;
 	text-align: center;
 	border-right: 2px dotted #cccccc;
+	height: 120px;
 }
 
 #topbarR
@@ -135,6 +139,8 @@ ol > li > ul > li:hover > a
 	width: 148px;
 	min-height: 620px;
 	padding:20px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: lightgray;
 	text-align: center;
 	font-size: 16px;
@@ -163,7 +169,7 @@ ol > li > ul > li:hover > a
 {
 	float: left;
 	padding: 40px;
-	width: 730px;
+	width: 750px;
 	background-color: #dedede;
 	min-height: 610px;
 	font-size: 20px;
@@ -263,4 +269,42 @@ button
 	width: 100px;
 	border-radius: 5px;
 	padding: 6px;
+}
+button:hover
+{
+	background-color: #635C5C;
+}
+.row
+{
+	margin: 10px 10px;
+}
+.col
+{
+	display: inline-block;
+	margin: 0 10px;
+	width: 200px;
+}
+#komentarz
+{
+	display: none;
+}
+#add,input[type=reset]
+{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color: #286607;
+	font-size:15px;
+	color: white;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	padding: 0px;
+	margin-left: 0px;
+}
+#add:hover,input[type=reset]:hover
+{
+	background-color: #37b93d;
 }
