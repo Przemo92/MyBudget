@@ -15,7 +15,7 @@ function appearComment() {
   // If the checkbox is checked, display the output text
   if (checkBox.checked == true){
     komentarz.style.display = "block";
-  } else {
-    komentarz.style.display = "none";
-  }
+	} 	else {
+		komentarz.style.display = "none";
+	}
 }
